@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/billing" />
+    <file type="web" url="file://$PROJECT_DIR$/eventsourcing" />
+    <file type="web" url="file://$PROJECT_DIR$/message-queue" />
+    <file type="web" url="file://$PROJECT_DIR$/order" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/shared/build/publications/maven/pom-default.xml" />
+        <option value="$PROJECT_DIR$/order-api/build/publications/maven/pom-default.xml" />
+        <option value="$PROJECT_DIR$/billing-api/build/publications/maven/pom-default.xml" />
+        <option value="$PROJECT_DIR$/jms-messaging/build/publications/maven/pom-default.xml" />
+        <option value="$PROJECT_DIR$/message-queue/build/publications/maven/pom-default.xml" />
+        <option value="$PROJECT_DIR$/application-support-stack/build/publications/maven/pom-default.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_16" default="true" project-jdk-name="openjdk-16" project-jdk-type="JavaSDK" />
+</project>

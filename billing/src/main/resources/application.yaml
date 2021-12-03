@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: azure
+  jms:
+    servicebus:
+      connection-string: ${AZURE_SERVICEBUS_CONNECTION_STRING}
+      pricingTier: basic
+
