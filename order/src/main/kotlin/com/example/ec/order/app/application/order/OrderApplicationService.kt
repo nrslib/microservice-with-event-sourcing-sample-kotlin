@@ -2,11 +2,14 @@ package com.example.ec.order.app.application.order
 
 import com.example.ec.applicationsupportstack.kotlinsupport.AllOpen
 import com.example.ec.eventsourcing.core.AggregateRepository
+import com.example.ec.order.api.order.OrderItem
+import com.example.ec.order.api.order.OrderItems
 import com.example.ec.order.app.domain.models.item.Item
 import com.example.ec.order.app.domain.models.item.ItemId
 import com.example.ec.order.app.domain.models.item.ItemRepository
 import com.example.ec.order.app.domain.models.order.*
 import org.springframework.transaction.annotation.Transactional
+import java.util.*
 
 @AllOpen
 class OrderApplicationService(
@@ -23,7 +26,7 @@ class OrderApplicationService(
     fun createOrder(accountId: String, itemAndQuantities: List<ItemIdAndQuantity>): String {
         val items = itemRepository.find(itemAndQuantities.map { ItemId(it.itemId) })
         val orderItems = makeOrderItems(itemAndQuantities, items)
-        val command = CreateOrderCommand(accountId, orderItems)
+        val command = CreateOrderCommand(UUID.randomUUID().toString(), accountId, orderItems)
         val result = orderRepository.save(command)
 
         return result.idAndVersion.id

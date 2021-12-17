@@ -1,7 +1,8 @@
 package com.example.ec.order.app.domain.models.order
 
 import com.example.ec.eventsourcing.core.snapshot.Snapshot
-import com.example.ec.order.api.OrderState
+import com.example.ec.order.api.order.OrderItems
+import com.example.ec.order.api.order.OrderState
 import com.example.ec.shared.money.models.money.Money
 
 class OrderSnapshot : Snapshot {

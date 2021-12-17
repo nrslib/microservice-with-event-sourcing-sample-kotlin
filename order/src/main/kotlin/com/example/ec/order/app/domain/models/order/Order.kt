@@ -2,7 +2,11 @@ package com.example.ec.order.app.domain.models.order
 
 import com.example.ec.eventsourcing.core.CommandProcessingAggregate
 import com.example.ec.eventsourcing.core.event.Event
-import com.example.ec.order.api.OrderState
+import com.example.ec.order.api.order.OrderItems
+import com.example.ec.order.api.order.OrderState
+import com.example.ec.order.api.order.events.OrderApprovedEvent
+import com.example.ec.order.api.order.events.OrderCreatedEvent
+import com.example.ec.order.api.order.events.OrderRejectedEvent
 import com.example.ec.shared.money.models.money.Money
 
 class Order : CommandProcessingAggregate<Order, OrderCommand>() {
@@ -13,7 +17,7 @@ class Order : CommandProcessingAggregate<Order, OrderCommand>() {
 
     fun process(command: CreateOrderCommand): List<Event> {
         val total = command.orderItems.total()
-        val event = OrderCreatedEvent(command.accountId, total, command.orderItems)
+        val event = OrderCreatedEvent(command.id, command.accountId, total, command.orderItems)
         return listOf(event)
     }
 

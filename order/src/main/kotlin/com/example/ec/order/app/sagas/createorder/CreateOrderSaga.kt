@@ -5,7 +5,7 @@ import com.example.ec.billing.api.AuthorizeCommand
 import com.example.ec.billing.api.AuthorizeFailReply
 import com.example.ec.billing.api.AuthorizeSuccessReply
 import com.example.ec.mq.Producer
-import com.example.ec.order.api.events.OrderCreatedEvent
+import com.example.ec.order.api.order.events.OrderCreatedEvent
 import com.example.ec.order.app.application.order.OrderApplicationService
 import org.springframework.beans.factory.annotation.Qualifier
 

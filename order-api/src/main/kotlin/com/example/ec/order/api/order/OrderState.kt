@@ -1,4 +1,4 @@
-package com.example.ec.order.api
+package com.example.ec.order.api.order
 
 enum class OrderState {
     APPROVAL_PENDING,

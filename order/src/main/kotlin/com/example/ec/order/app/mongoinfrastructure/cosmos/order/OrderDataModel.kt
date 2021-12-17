@@ -2,7 +2,7 @@ package com.example.ec.order.app.mongoinfrastructure.cosmos.order
 
 import com.azure.spring.data.cosmos.core.mapping.Container
 import com.azure.spring.data.cosmos.core.mapping.GeneratedValue
-import com.example.ec.order.api.OrderState
+import com.example.ec.order.api.order.OrderState
 import org.springframework.data.annotation.Id
 
 @Container(containerName = "order_orders")

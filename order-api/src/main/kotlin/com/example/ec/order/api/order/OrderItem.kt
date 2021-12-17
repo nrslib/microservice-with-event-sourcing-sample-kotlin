@@ -1,4 +1,4 @@
-package com.example.ec.order.app.domain.models.order
+package com.example.ec.order.api.order
 
 import com.example.ec.shared.money.models.money.Money
 

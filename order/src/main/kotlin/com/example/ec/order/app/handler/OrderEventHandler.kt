@@ -1,7 +1,7 @@
 package com.example.ec.order.app.handler
 
 import com.example.ec.applicationsupportstack.microservicesupport.saga.SagaManager
-import com.example.ec.order.api.events.OrderCreatedEvent
+import com.example.ec.order.api.order.events.OrderCreatedEvent
 import org.springframework.context.event.EventListener
 
 class OrderEventHandler(private val sagaManager: SagaManager) {
