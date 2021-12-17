@@ -45,7 +45,8 @@ dependencies {
 
     // https://mvnrepository.com/artifact/com.microsoft.sqlserver/mssql-jdbc
     implementation("org.springframework.boot:spring-boot-starter-data-jpa")
-    implementation("com.microsoft.sqlserver:mssql-jdbc:9.4.0.jre11")
+//    implementation("com.microsoft.sqlserver:mssql-jdbc:9.4.0.jre11")
+    runtimeOnly("com.h2database:h2")
 }
 
 tasks.withType<KotlinCompile> {

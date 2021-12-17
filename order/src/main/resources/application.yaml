@@ -5,10 +5,6 @@ spring:
     servicebus:
       connection-string: ${AZURE_SERVICEBUS_CONNECTION_STRING}
       pricingTier: basic
-  datasource:
-    url: ${DATASOURCE_URL}
-    username: ${DATASOURCE_USERNAME}
-    password: ${DATASOURCE_PASSWORD}
   jpa:
     show-sql: true
     hibernate:
