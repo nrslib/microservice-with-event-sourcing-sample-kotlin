@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/application-support-stack" />
     <file type="web" url="file://$PROJECT_DIR$/billing" />
     <file type="web" url="file://$PROJECT_DIR$/eventsourcing" />
+    <file type="web" url="file://$PROJECT_DIR$/jms-messaging" />
     <file type="web" url="file://$PROJECT_DIR$/message-queue" />
     <file type="web" url="file://$PROJECT_DIR$/order" />
+    <file type="web" url="file://$PROJECT_DIR$/order-api" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
