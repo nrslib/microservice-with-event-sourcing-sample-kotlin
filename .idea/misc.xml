@@ -4,11 +4,18 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/application-support-stack" />
     <file type="web" url="file://$PROJECT_DIR$/billing" />
-    <file type="web" url="file://$PROJECT_DIR$/eventsourcing" />
+    <file type="web" url="file://$PROJECT_DIR$/billing-api" />
+    <file type="web" url="file://$PROJECT_DIR$/eventsourcing/eventsourcing-core" />
+    <file type="web" url="file://$PROJECT_DIR$/eventsourcing/eventsourcing-cosmos" />
+    <file type="web" url="file://$PROJECT_DIR$/eventsourcing/eventsourcing-dynamo" />
+    <file type="web" url="file://$PROJECT_DIR$/eventsourcing/eventsourcing-jpa" />
     <file type="web" url="file://$PROJECT_DIR$/jms-messaging" />
     <file type="web" url="file://$PROJECT_DIR$/message-queue" />
-    <file type="web" url="file://$PROJECT_DIR$/order" />
-    <file type="web" url="file://$PROJECT_DIR$/order-api" />
+    <file type="web" url="file://$PROJECT_DIR$/order-app/order" />
+    <file type="web" url="file://$PROJECT_DIR$/order-app/order-api" />
+    <file type="web" url="file://$PROJECT_DIR$/order-app/order-application" />
+    <file type="web" url="file://$PROJECT_DIR$/order-app/order-infrastructure-cosmos" />
+    <file type="web" url="file://$PROJECT_DIR$/order-app/order-infrastructure-jpa" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">

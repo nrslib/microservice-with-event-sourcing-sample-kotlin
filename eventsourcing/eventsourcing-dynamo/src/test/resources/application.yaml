@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    active: debug
+  datasource:
+    url: jdbc:sqlserver://ec-system.database.windows.net:1433;database=ec-sql-db;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    username: nrslib@ec-system
+    password: 111l111l@@@
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop

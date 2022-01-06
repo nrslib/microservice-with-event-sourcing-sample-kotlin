@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="com.example.ec.order" target="1.8" />
+      <module name="com.example.ec.order-api" target="1.8" />
+      <module name="com.example.ec.order-api.main" target="1.8" />
+      <module name="com.example.ec.order-api.test" target="1.8" />
+      <module name="com.example.ec.order.main" target="1.8" />
+      <module name="com.example.ec.order.test" target="1.8" />
+      <module name="eventsourcing.main" target="1.8" />
+      <module name="eventsourcing.test" target="1.8" />
+      <module name="order-apoplication" target="1.8" />
+      <module name="order-apoplication.main" target="1.8" />
+      <module name="order-apoplication.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

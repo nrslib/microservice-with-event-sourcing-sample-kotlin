@@ -1,0 +1,19 @@
+spring:
+  profiles:
+    active: debug
+  jms:
+    servicebus:
+      connection-string: ${AZURE_SERVICEBUS_CONNECTION_STRING}
+      pricingTier: basic
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+#azure:
+#  cosmos:
+#    uri: ${AZURE_COSMOS_URI}
+#    key: ${AZURE_COSMOS_KEY}
+#    database: ${AZURE_COSMOS_DATABASE}
+event-sourcing:
+  cosmos:
+    database-name: ${AZURE_COSMOS_DATABASE}
